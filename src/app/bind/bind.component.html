@@ -1,0 +1,33 @@
+<p>
+  管道Demo
+</p>
+<div>
+  我的生日是：{{birthday | date:'yyyy-MM-dd HH:mm:ss' | lowercase}}<br>
+  圆周率是：{{pi | number:'2.1-4'}}
+  <p>自定义管道{{sizeA | multiple:'2'}}</p>
+  <!--<button (click)="doOnClick($event)">点我</button><br>-->
+  <!--<button (click)="doOnClick($event)" disabled="disabled">点我</button><br>-->
+  <!--<input value="input" (input)="doOnInput($event)">-->
+</div>
+<!--<img [src]="imgUrl" class="" alt="图片">-->
+<!--<img src={{imgUrl}} class="" alt="图片">-->
+<!--<table>-->
+<!--<tr>-->
+<!--<td [attr.colspan]="size">HTML属性绑定</td>-->
+<!--</tr>-->
+<!--</table>-->
+<!--<div [class]="divClass" style="margin-bottom: 30px">-->
+<!--CSS类绑定-->
+<!--</div>-->
+<!--<div class="a b" [class.c]="isBig" style="margin-bottom: 30px">-->
+<!--CSS部分类绑定-->
+<!--</div>-->
+<!--<div [ngClass]="divClass" style="margin-bottom: 30px">-->
+<!--CSS部分类绑定-->
+<!--</div>-->
+<!--<div [style.color]="isDev?'red':'green'" style="margin-bottom: 30px">-->
+<!--样式绑定-->
+<!--</div>-->
+<!--<div [ngStyle]="divStyle" style="margin-bottom: 30px">-->
+<!--样式绑定-->
+<!--</div>-->
